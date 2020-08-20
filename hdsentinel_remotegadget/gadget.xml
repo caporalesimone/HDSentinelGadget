@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gadget>
+  <name>HDSentinel Remote Monitor</name>
+  <namespace>HDSentinelRemote</namespace>
+  <version>1.1</version>
+  <author name="Kramttocs">
+    <info url="www.hdsentinel.com" />
+  </author>
+  <copyright>2011</copyright>
+  <description>HDSentinel for monitoring remote machines</description>
+   <icons>
+    <icon height="70" width="48" src="icon.png" />
+  </icons>
+  <hosts>
+    <host name="sidebar">
+      <base type="HTML" apiVersion="1.0.0" src="HDSentinelRemote.html" />
+      <permissions>full</permissions>
+    <platform minPlatformVersion="0.3" />
+    </host>
+  </hosts>
+</gadget>

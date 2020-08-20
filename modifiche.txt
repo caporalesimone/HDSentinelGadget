@@ -1,0 +1,39 @@
+crash with disconnected client
+
+
+modifica di simonsoft nel sorgente
+
+dimensione possibile quanto l'orologio?
+
+
+Link alla pagina html http://eeebox:61220/
+
+barra cpu accanto al total cpu:
+
+barra hard disk come in http://eeebox:61220/
+con scritto dentro Disk0 e affianco temperatura e V/X
+
+
+eventualmente o un simbolo per identificare l'espansione
+dell'albero delle cpu oppure l'underline su evento
+mouse over
+
+
+3° schermatina con i dati smart del disco fisso
+
+
+cliccando su system info magari un grafico dell'uso
+della cpu e della ram
+
+
+chiedere a janos la possibilità di avere un xml
+customizzato per l'addon con solo i dati utilizzati
+per ridurre la banda.
+
+
+refresh di 0.5 blocca il refresh
+refresh di 0,5 sembra ok
+
+colore differente per core.
+
+

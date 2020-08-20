@@ -1,0 +1,147 @@
+body{			
+	color: white;
+	}
+
+#content{
+	font-family: Calibri;
+	border-style: ridge;
+	border-width: thick;
+	border-color: gray;
+	padding:5px;	
+	background-color: black;
+}
+
+.title{
+	font-size:15px;
+	color:#7bcb7b;
+	padding:0px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.systemInfoHeader{
+	font-size:12px;
+	color:white;
+	padding:0px;
+	font-weight: bold;
+	text-align: left;
+	text-decoration:underline;
+}
+.ramHeader{
+	font-size:12px;
+	color:white;
+	padding:0px;
+	font-weight: bold;
+	text-align: left;
+	text-decoration:underline;
+}
+
+.hddHeaderSpan{
+	font-size:12px;
+	color:white;
+	padding:0px;
+	font-weight: bold;
+	text-align: left;
+	text-decoration:underline;
+}
+.CPUTotalDiv{
+	font-size:11px;
+	color:#fff626;
+	padding:0px;
+	font-weight: bold;
+}
+
+.hddDetailHeader{
+	font-size:13px;
+	color:#fff626;
+	padding-left:5px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.partitionHeader{
+	font-size:12px;
+	color:white;
+	font-weight: bold;
+	text-align: left;
+	text-decoration:underline;
+}
+
+
+table{
+    width:120px;
+    border-collapse: collapse;
+    font-size:11px;
+	color: white;
+}
+
+
+.cpuContainer {     
+     width: 80px; 
+     background: white;
+	 text-align:left;
+}
+.cpuContainerCell {    
+     text-align:center;
+}
+.cpuBar{
+	width: 0%;
+	height: 3px;
+	background: #84c9f4;
+	z-index: 4; 
+	position: absolute;
+}
+.cpuUsage{
+	color: black;
+	z-index: 5;
+	position: relative;
+	text-align: center;
+}
+
+.ramBar{
+	width: 0%; 
+	height:3px; 
+	background: #87CEFA;
+	z-index: 4; 
+	position: absolute;
+}
+
+.ramContainer {
+    width: 105px;      
+    background: white;
+	text-align:left;	 
+}
+.ramContainerCell{
+	text-align:center;
+}
+
+.ramUsage{
+	color: black;
+	z-index: 5;
+	position: relative;
+	text-align: center;
+}
+
+.hddDetailBar{
+	width: 0%; 
+	height:3px; 
+	background: #87CEFA
+	z-index: -1; 
+	position: absolute;
+}
+
+.hddDetailContainer {
+     width: 100px;      
+     background: white;
+	text-align:left;	 
+}
+.hddDetailContainerCell{
+	text-align:center;
+}
+
+.hddDetailUsage{
+	color: black;
+	z-index=99;
+	position: relative;
+	text-align: center;
+}

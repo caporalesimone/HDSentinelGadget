@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <title>HDSentinel Remote HDD Settings</title>
+    <link href="settings.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" language="javascript" src="settings.js"></script>
+	<script type="text/javascript" language="javascript" src="common.js"></script>
+  </head>
+ <body onload="onLoad();">
+ <div>
+<table><tr><td>URL:</td><td><input type="text" name="url" class="urlInput"/></td><td>Refresh:<input class="refreshRate" TYPE="text" name="refreshRate" maxlength="5"></td></tr>
+<tr><td></td><td align="left">server:port (no http://)</td><td align="right">(in seconds)</td></tr>
+<tr><td colspan="3"><input type="checkbox" name="passwordRequired" onclick='toggleCredentials()'/>Password Required</td><td>
+
+
+</td></tr>
+
+
+
+<tr id='usernameRow' class='hidden'><td colspan="3">Username:<input type="text" name="username" class="usernameInput" >Password:<input type="password" name="password" class="passwordInput" ></td></tr>
+
+
+<tr><td colspan="3"><table>
+<tr><td class="sectionTitle">Thresholds</td></tr><tr><td>Health OK:</td><td><input class="upOrDown" TYPE="text" id="hddHealthOK" disabled="true" maxlength="5"></td>
+<td><table><tr><td><input type="image" src="upArrow.png" onclick="javascript:upOrDown('hddHealthOK',1)" value="UP"></td>
+</tr><tr><td><input type="image" src="downArrow.png" onclick="javascript:upOrDown('hddHealthOK',-1)" value="DOWN"></td></tr></table></td>
+
+
+<td>Health Error:</td><td><input class="upOrDown" TYPE="text" id="hddHealthError" disabled="true" maxlength="5"></td> 
+<td><table><tr><td><input type="image" src="upArrow.png" onclick="javascript:upOrDown('hddHealthError',1)" value="UP"></td>
+</tr><tr><td><input type="image" src="downArrow.png" onclick="javascript:upOrDown('hddHealthError',-1)" value="DOWN"></td></tr></table></td></tr>
+
+
+
+<tr><td>Temp OK:</td><td><input class="upOrDown" TYPE="text" id="hddTempOK" disabled="true" maxlength="5"></td> 
+<td><table><tr><td><input type="image" src="upArrow.png" onclick="javascript:upOrDown('hddTempOK',1)" value="UP"></td>
+</tr><tr><td><input type="image" src="downArrow.png" onclick="javascript:upOrDown('hddTempOK',-1)" value="DOWN"></td></tr></table></td>
+
+
+
+<td>Temp Error:</td><td><input class="upOrDown" TYPE="text" id="hddTempError" disabled="true" maxlength="5"></td> 
+<td><table><tr><td><input type="image" src="upArrow.png" onclick="javascript:upOrDown('hddTempError',1)" value="UP"></td>
+</tr><tr><td><input type="image" src="downArrow.png" onclick="javascript:upOrDown('hddTempError',-1)" value="DOWN"></td></tr></table></td></tr>
+
+
+</table></td></tr>
+
+<tr><td colspan="3">Created By Kramttocs</br>Thanks to HDSentinel for the great product and Simone Caporale for the initial gadget</td></tr>
+
+</table>
+
+
+</div>
+ </body>
+</html>
